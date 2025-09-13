@@ -6,6 +6,8 @@
 }
 body {
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .top-nav {
   background-color: white;
@@ -16,7 +18,7 @@ body {
   justify-content: center;
 }
 .title {
-  font-weight: 900;
+  font-weight: 600;
   font-size: x-large;
   margin: auto;
 }
@@ -26,10 +28,10 @@ body {
   border-color: rgb(59, 73, 223);
   border-width: 1px;
   color: rgb(59, 73, 223);
-  font-size: large;
-  font-weight: 500;
+  font-weight: 600;
   height: 40px;
   margin: auto;
+  padding: 0 15px;
 }
 .faBars {
   margin: 5px;
