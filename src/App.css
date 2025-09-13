@@ -26,7 +26,8 @@ body {
   border-color: rgb(59, 73, 223);
   border-width: 1px;
   color: rgb(59, 73, 223);
-  font-size: larger;
+  font-size: large;
+  font-weight: 500;
   height: 40px;
   margin: auto;
 }
