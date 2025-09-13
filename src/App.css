@@ -21,7 +21,9 @@ body {
 .title {
   font-weight: 600;
   font-size: x-large;
-  margin: auto;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
 }
 .outline {
   background-color: white;

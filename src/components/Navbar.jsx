@@ -3,6 +3,7 @@ import { Button } from "./Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { SideNav } from "./SideNav";
+import { Title } from "./Title";
 
 export const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -17,7 +18,7 @@ export const Navbar = () => {
         className="faBars"
         onClick={handleClick}
       />
-      <p className="title">Community App</p>
+      <Title />
       <Button text="Create Account" type="outline" />
       {open && <SideNav />}
     </nav>
