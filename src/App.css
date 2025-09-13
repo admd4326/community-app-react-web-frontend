@@ -16,6 +16,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .title {
   font-weight: 600;
@@ -35,4 +36,14 @@ body {
 }
 .faBars {
   margin: 5px;
+}
+.side-nav {
+  position: fixed;
+  overflow-y: scroll;
+  z-index: 2;
+  width: 80%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  bottom: 0;
 }
