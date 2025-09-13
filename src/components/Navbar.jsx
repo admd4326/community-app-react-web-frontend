@@ -20,7 +20,7 @@ export const Navbar = () => {
       />
       <Title />
       <Button text="Create Account" type="outline" />
-      {open && <SideNav />}
+      {open && <SideNav setOpen={handleClick} />}
     </nav>
   );
 };

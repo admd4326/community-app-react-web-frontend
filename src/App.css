@@ -49,3 +49,8 @@ body {
   left: 0;
   bottom: 0;
 }
+.cancel-button {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
