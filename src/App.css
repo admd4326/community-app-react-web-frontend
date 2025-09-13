@@ -1,0 +1,9 @@
+.container {
+  background-color: #f6f6f6;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0;
+}
